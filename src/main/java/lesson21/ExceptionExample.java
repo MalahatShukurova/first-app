@@ -14,7 +14,8 @@ public class ExceptionExample {
         int number = 0;
         try {
             number = Integer.parseInt(input);
-        } catch (NumberFormatException ne) {
+            number = Integer.parseInt(input1);
+        } catch (NumberFormatException e) {
             System.out.println("Invalid input!");
         }
 
